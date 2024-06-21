@@ -1,0 +1,7 @@
+<?php
+/** @var \Magento\Framework\View\Element\Template $block */
+$greetingText = $block->getData('greeting_text');
+?>
+<div class="greeting-text">
+    <h1><?php echo $block->escapeHtml($greetingText); ?></h1>
+</div>
